@@ -307,7 +307,7 @@ bikeTours.forEach(tour => {
                     </div>
                     
                     <div class="booking-details"></div>
-                    <form action="https://formsubmit.co/info@espreeholidays.com"
+                    <form action="https://formsubmit.co/dartabish01@gmail.com"
                 method="POST" id="bookingForm${
                   tour.id
                 }" class="enquiry-form" data-package-id="${
@@ -318,7 +318,7 @@ bikeTours.forEach(tour => {
                   name="_subject"
                   value="Bike Tour Enquiry!"
                 />
-                <input type="hidden" name="_next" value="https://espreeholidays.com/thanks.html">
+               <input type="hidden" name="_next" value="https://dartabish.github.io/tourism/thanks.html">
                 <input type="hidden" name="_captcha" value="false" />
                         <div class="form-floating" >
                             <input

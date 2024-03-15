@@ -205,13 +205,13 @@ courses.forEach(course => {
                     </div>
                     
                     <div class="booking-details"></div>
-                    <form action="https://formsubmit.co/info@espreeholidays.com"
+                    <form action="https://formsubmit.co/dartabish01@gmail.com"
                 method="POST" id="bookingForm${
                   course.id
                 }" class="enquiry-form" data-package-id="${
     course.id
   }"  autocomplete="on">
-                <input type="hidden" name="_next" value="https://espreeholidays.com/thanks.html">
+                <input type="hidden" name="_next" value="https://dartabish.github.io/tourism/thanks.html">
                 <input type="hidden" name="_subject" value="Skiing & Snowboarding Enquiry!"/>
                 <input type="hidden" name="_captcha" value="false" />
                         <div class="form-floating" >

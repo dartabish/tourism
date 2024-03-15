@@ -646,12 +646,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     
                     <div class="booking-details"></div>
-                    <form action="https://formsubmit.co/info@espreeholidays.com" method="POST" id="bookingForm${
+                    <form action="https://formsubmit.co/dartabish01@gmail.com" method="POST" id="bookingForm${
                       tourPackage.id
                     }" class="enquiry-form" data-package-id="${
       tourPackage.id
     }"  autocomplete="on">
-                        <input type="hidden" name="_next" value="https://espreeholidays.com/thanks.html">
+                        <input type="hidden" name="_next" value="https://dartabish.github.io/tourism/thanks.html">
                         <input type="hidden" name="_template" value="box">
                         <input type="hidden" name="_subject" value="Tour Package Enquiry!">
                         <input type="hidden" name="_captcha" value="false">
@@ -748,36 +748,6 @@ document.addEventListener('DOMContentLoaded', () => {
     packageCardsContainer.appendChild(packageCard);
   });
 });
-
-// Event listener for form submissions
-/* packageCardsContainer.addEventListener('submit', function (event) {
-  if (event.target.classList.contains('enquiry-form')) {
-    event.preventDefault();
-
-    // Extract form data
-    let packageId = event.target.getAttribute('data-package-id');
-    let formData = {
-      selectedPackage: event.target.querySelector(
-        `#floatingPackage${packageId}`
-      ).value,
-      startDate: event.target.querySelector(`#floatingStartDate${packageId}`)
-        .value,
-      fullName: event.target.querySelector(`#floatingFullName${packageId}`)
-        .value,
-      phone: event.target.querySelector(`#floatingPhone${packageId}`).value,
-      message: event.target.querySelector(`#floatingMessage${packageId}`).value,
-    };
-
-    var email = 'info@espreeholidays.com';
-    var subject = 'Tour Package Enquiry';
-    var emailBody = `Hi, I'm interested in booking a tour package!\nSelected Package: ${formData.selectedPackage}\nDate of Arrival: ${formData.startDate}\nFull Name: ${formData.fullName}\nPhone: ${formData.phone}\nMessage: ${formData.message}`;
-    var email = `mailto:${email}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(emailBody)}`;
-    window.open(email, '_blank').focus();
-    window.location.reload();
-  }
-}); */
 
 const backToTopBtn = document.getElementById('myBtn');
 function scrollFunction() {

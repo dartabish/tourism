@@ -701,11 +701,11 @@ function displayTreks(object, container) {
                     </div>
                     
                     <div class="booking-details"></div>
-                    <form action="https://formsubmit.co/info@espreeholidays.com"
+                    <form action="https://formsubmit.co/dartabish01@gmail.com"
                 method="POST" id="bookingForm${
                   trek.id
                 }" class="booking-form" data-trek-id="${trek.id}">
-                <input type="hidden" name="_next" value="https://espreeholidays.com/thanks.html">
+               <input type="hidden" name="_next" value="https://dartabish.github.io/tourism/thanks.html">
                 <input
                   type="hidden"
                   name="_subject"
