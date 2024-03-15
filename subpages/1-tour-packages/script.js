@@ -646,7 +646,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     
                     <div class="booking-details"></div>
-                    <form action="https://formsubmit.co/dartabish01@gmail.com" method="POST" id="bookingForm${
+                    <form action="https://formsubmit.co/kingsback367@gmail.com" method="POST" id="bookingForm${
                       tourPackage.id
                     }" class="enquiry-form" data-package-id="${
       tourPackage.id
